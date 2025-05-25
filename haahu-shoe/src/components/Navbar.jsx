@@ -4,7 +4,7 @@ const Navbar = ({onCartToggle, cartItemCount}) => {
   return (
       <header className="bg-indigo-600 text-white flex justify-between items-center p-4 shadow select-none">
         <h1 className="text-2xl font-bold cursor-pointer" onClick={() => window.location.reload()}>
-          ShoeShop
+          ጫማ መደብር
         </h1>
         <button 
           onClick={onCartToggle} 
